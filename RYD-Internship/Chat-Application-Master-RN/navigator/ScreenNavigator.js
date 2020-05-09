@@ -199,12 +199,12 @@ const styles = StyleSheet.create({
 })
 
 const AuthNavigator = createSwitchNavigator({
-    // NumberLogin: {
-    //     screen: NumberLoginNavigator
-    // },
-    // EnterCode: {
-    //     screen: EnterCodeNavigator
-    // },
+    NumberLogin: {
+        screen: NumberLoginNavigator
+    },
+    EnterCode: {
+        screen: EnterCodeNavigator
+    },
     Main: {
         screen: MainNavigator
     }
